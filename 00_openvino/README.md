@@ -1,6 +1,6 @@
 # OpenVINO 2022 Installer
 
-[Raspbian-bullseye(64bit)](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bullseye/openvino-2022-raspbian-bullseye-arm64-0.1.0-20221219.deb)
+Download URL: [Raspbian-bullseye(64bit)](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bullseye/openvino-2022-raspbian-bullseye-arm64-0.1.0-20221219.deb)
 
 
 ```bash
