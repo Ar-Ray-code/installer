@@ -25,6 +25,7 @@ sudo apt install ./libtflite-dev_2.11.0_amd64.deb
 
 ```bash
 sudo apt remove libtflite-dev
+```
 
 <br>
 
