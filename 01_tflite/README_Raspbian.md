@@ -54,6 +54,11 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 git clone --recursive https://github.com/Ar-Ray-code/YOLOX-ROS
 
+git clone https://github.com/ros-perception/image_common.git -b ros2
+git clone https://github.com/ros-perception/vision_opencv.git -b humble
+git clone https://github.com/Ar-Ray-code/picamera_ros2
+git clone https://gitlab.com/boldhearts/ros2_v4l2_camera.git -b humble
+
 cd ~/ros2_ws/
 bash ./src/YOLOX-ROS/weights/tflite/download_model.bash
 
