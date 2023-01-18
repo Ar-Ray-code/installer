@@ -57,7 +57,7 @@ git clone --recursive https://github.com/Ar-Ray-code/YOLOX-ROS
 cd ~/ros2_ws/
 bash ./src/YOLOX-ROS/weights/tflite/download_model.bash
 
-source /opt/ros/galactic/setup.bash
+source /opt/ros/humble/setup.bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/tflite/lib/
 
 colcon build --symlink-install \
