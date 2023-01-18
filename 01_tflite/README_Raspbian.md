@@ -1,4 +1,4 @@
-# TFLite runtime library
+# TFLite runtime library (ARM64 for Raspbian)
 
 TFLite library installer
 
@@ -6,17 +6,17 @@ TFLite library installer
 
 ## Requirements
 
-- Ubuntu20
-- x86_64 (amd64) Intel Core i5 1240P
-- ROS-Galactic
+- RaspberryPi OS Bullseye
+- arm64
+- ROS-Humble (for YOLOX-ROS)
 
 <br>
 
 ## Install
 
 ```bash
-wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/tflite-dev/ubuntu/focal/libtflite-dev_2.11.0_amd64.deb
-sudo apt install ./libtflite-dev_2.11.0_amd64.deb
+wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/tflite-dev/debian/bullseye/libtflite-dev_2.11.0_arm64.deb
+sudo apt install ./libtflite-dev_2.11.0_arm64.deb
 ```
 
 <br>
