@@ -2,6 +2,8 @@
 
 TFLite library installer
 
+[for Raspbian](https://github.com/Ar-Ray-code/installer/blob/main/01_tflite/README_Raspbian.md)
+
 <br>
 
 ## Requirements
