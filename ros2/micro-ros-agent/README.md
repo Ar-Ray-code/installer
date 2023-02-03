@@ -6,6 +6,7 @@
 | Ubuntu20.04 | galactic | arm64 | [wasabi](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/ros2-desktop/ubuntu/focal/ros-galactic-micro-ros-agent-0.0.1_20230203_arm64.deb) |
   
 ```bash
+curl -s https://raw.githubusercontent.com/NITKK-ROS-Team/udev_rules/main/install.bash | sudo bash
 wget <URL> -O ./target.deb
 sudo apt install ./target.deb
 
