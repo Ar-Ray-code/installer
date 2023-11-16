@@ -1,10 +1,11 @@
-# OpenVINO
+# OpenVINO：[GitHub](https://github.com/openvinotoolkit/openvino)
 
 ## OpenVINO 2023 Installer
 
-| OpenVINO version | Distro | Arch | Optimization target | URL |
+| OpenVINO version | Distro | Arch | Optimization target | URL | Status |
 | --- | --- | --- | --- | --- |
-| openvino-2023.2.0.dev20230922 | Bookworm, Jammy | aarch64 | Cortex-A72 | [URL](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bookworm/openvino-2023.2.0.dev20230922-raspbian-bookworm-arm64-0.1.0-20231108.deb)
+| openvino-2023.2.0.dev20230922 | Bookworm, Jammy | aarch64 | Cortex-A72 | [URL](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bookworm/openvino-2023.2.0.dev20230922-raspbian-bookworm-arm64-0.1.0-20231108.deb) | ✅ |
+| 2023.1.0 | Bookworm, Jammy | aarch64 | Cortex-A72 | |  |
 
 <details><summary>OpenVINO 2022 Installer</summary><div>
 
