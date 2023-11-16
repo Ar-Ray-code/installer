@@ -1,4 +1,12 @@
-# OpenVINO 2022 Installer
+# OpenVINO
+
+## OpenVINO 2023 Installer
+
+| OpenVINO version | Distro | Arch | Optimization target | URL |
+| --- | --- | --- | --- | --- |
+| openvino-2023.2.0.dev20230922 | Bookworm, Jammy | aarch64 | Cortex-A72 | [URL](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bookworm/openvino-2023.2.0.dev20230922-raspbian-bookworm-arm64-0.1.0-20231108.deb)
+
+<details><summary>OpenVINO 2022 Installer</summary><div>
 
 Download URL: [Raspbian-bullseye(64bit)](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bullseye/openvino-2022-raspbian-bullseye-arm64-0.1.0-20221219.deb)
 
@@ -23,3 +31,4 @@ sudo ldconfig
 rm ./97-myriad-usbboot.rules
 ```
 
+</div></details>
