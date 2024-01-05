@@ -12,7 +12,7 @@ pyrealsense is not supported
 | --- | --- | --- |
 | 2.50.0 | ❌ | [librealsense-bookworm-2-50-0-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-bookworm-2-50-0-arm64.deb)
 | 2.53.1 | ❌ | [librealsense-bookworm-2-53-1-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-bookworm-2-53-1-arm64.deb)
-| 2.54.2 | ❌ | [librealsense-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-bookworm-2-54-2-arm64.deb)
+| 2.54.2　（recommended） | ❌ | [librealsense-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-bookworm-2-54-2-arm64.deb)
 
 ## Bullseye
 
