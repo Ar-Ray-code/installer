@@ -4,8 +4,6 @@ librealsense2 for Raspbian (RaspberryPi OS 64bit)
 
 pyrealsense is not supported
 
-![rs](https://github.com/Ar-Ray-code/installer/assets/67567093/be46402c-2ea0-4fc8-a22f-e04310e20d35)
-
 ## Bookworm
 
 Recommend (2.54.2-rsusb) : [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
@@ -33,3 +31,6 @@ cd
 wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb -O ./librealsense.deb # 2.54.2 / bookworm
 sudo apt install ./librealsense.deb
 ```
+
+
+![rs](https://github.com/Ar-Ray-code/installer/assets/67567093/be46402c-2ea0-4fc8-a22f-e04310e20d35)
