@@ -6,14 +6,14 @@ pyrealsense is not supported
 
 ## Bookworm
 
-Recommend (2.54.2-rsusb) : [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
+Recommend (2.54.2) : [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
 
-| version | backend | app | URL |
+| version | app | URL |
 | --- | --- | --- | --- |
-| 2.50.0 | rsusb | ❌ | [librealsense-rsusb-bookworm-2-50-0-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-50-0-arm64.deb)
-| 2.53.1 | rsusb | ❌ | [librealsense-rsusb-bookworm-2-53-1-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-53-1-arm64.deb)
-| 2.54.2 | rsusb | ❌ | [librealsense-rsusb-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
-| 2.54.2 | rsusb | ✅ | [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
+| 2.50.0 | ❌ | [librealsense-rsusb-bookworm-2-50-0-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-50-0-arm64.deb)
+| 2.53.1 | ❌ | [librealsense-rsusb-bookworm-2-53-1-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-53-1-arm64.deb)
+| 2.54.2 | ❌ | [librealsense-rsusb-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
+| 2.54.2 | ✅ | [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
 
 
 ## Bullseye
