@@ -9,19 +9,19 @@ pyrealsense is not supported
 Recommend (2.54.2) : [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
 
 | version | app | URL |
-| --- | --- | --- | --- |
-| 2.50.0 | ❌ | [librealsense-rsusb-bookworm-2-50-0-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-50-0-arm64.deb)
-| 2.53.1 | ❌ | [librealsense-rsusb-bookworm-2-53-1-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-53-1-arm64.deb)
-| 2.54.2 | ❌ | [librealsense-rsusb-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
-| 2.54.2 | ✅ | [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
+| --- | --- | --- |
+| 2.50.0 | ❌ | [2-50-0](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-50-0-arm64.deb)
+| 2.53.1 | ❌ | [2-53-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-53-1-arm64.deb)
+| 2.54.2 | ❌ | [2-54-2](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
+| 2.54.2 | ✅ | [2-54-２](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
 
 
 ## Bullseye
 
-| version | backend | app | URL |
-| --- | --- | --- | --- |
-| 2.53.1 | rsusb | ❌ | [librealsense-dev_2-53-1_arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense-dev_2-53-1_arm64.deb) |
-| 2.54.1 | rsusb | ❌ | [librealsense2-dev_2.54.1_arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense2-dev_2.54.1_arm64.deb) |
+| version | app | URL |
+| --- | --- | --- |
+| 2.53.1 | ❌ | [2-53-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense-dev_2-53-1_arm64.deb) |
+| 2.54.1 | ❌ | [2-54-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense2-dev_2.54.1_arm64.deb) |
 
 
 ```bash
