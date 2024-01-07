@@ -6,7 +6,7 @@ pyrealsense is not supported
 
 ## Bookworm
 
-Recommend (2.54.2) : [librealsense-rsusb-app-bookworm-2-54-2-arm64.deb](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
+Recommend: (2.54.2)
 
 | version | app | URL |
 | --- | --- | --- |
