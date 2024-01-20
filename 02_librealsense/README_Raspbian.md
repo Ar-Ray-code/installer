@@ -28,6 +28,10 @@ Recommend: (2.54.2)
 cd
 wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb -O ./librealsense.deb # 2.54.2 / bookworm
 sudo apt install ./librealsense.deb
+
+sudo curl https://raw.githubusercontent.com/IntelRealSense/librealsense/master/config/99-realsense-libusb.rules --output /etc/udev/rules.d/99-realsense-libusb.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
 ```
 
 
