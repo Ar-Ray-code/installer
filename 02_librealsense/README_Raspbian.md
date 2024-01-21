@@ -8,25 +8,26 @@ pyrealsense is not supported
 
 Recommend: (2.54.2)
 
-| version | app | URL |
-| --- | --- | --- |
-| 2.50.0 | ❌ | [2-50-0](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-50-0-arm64.deb)
-| 2.53.1 | ❌ | [2-53-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-53-1-arm64.deb)
-| 2.54.2 | ❌ | [2-54-2](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
-| 2.54.2 | ✅ | [2-54-２](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
+| version | backend | app | URL |
+| --- | --- | --- | --- |
+| 2.50.0 | RSUSB | ❌ | [2-50-0](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-50-0-arm64.deb)
+| 2.53.1 | RSUSB | ❌ | [2-53-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-53-1-arm64.deb)
+| 2.54.2 | RSUSB | ❌ | [2-54-2](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
+| 2.54.2 | RSUSB | ✅ | [2-54-２](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
+| 2.54.2 | v4l2 | ✅ | [2-54-２](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-v4l2-backend-app-bookworm-2-54-2-arm64.deb)
 
 
 ## Bullseye
 
-| version | app | URL |
-| --- | --- | --- |
-| 2.53.1 | ❌ | [2-53-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense-dev_2-53-1_arm64.deb) |
-| 2.54.1 | ❌ | [2-54-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense2-dev_2.54.1_arm64.deb) |
+| version | backend | app | URL |
+| --- | --- | --- | --- |
+| 2.53.1 | RSUSB | ❌ | [2-53-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense-dev_2-53-1_arm64.deb) |
+| 2.54.1 | RSUSB | ❌ | [2-54-1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bullseye/librealsense2-dev_2.54.1_arm64.deb) |
 
 
 ```bash
 cd
-wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb -O ./librealsense.deb # 2.54.2 / bookworm
+wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-v4l2-backend-app-bookworm-2-54-2-arm64.deb -O ./librealsense.deb # 2.54.2 (v4l2) / bookworm
 sudo apt install ./librealsense.deb
 
 sudo curl https://raw.githubusercontent.com/IntelRealSense/librealsense/master/config/99-realsense-libusb.rules --output /etc/udev/rules.d/99-realsense-libusb.rules
