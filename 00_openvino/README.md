@@ -4,6 +4,7 @@
 
 | OpenVINO version | Distro | Arch | Optimization target | URL | Status |
 | --- | --- | --- | --- | --- | --- |
+| openvino-2023.2.0.dev20230922 | Bookworm, Jammy | aarch64 | Cortex-A76 | [URL](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bookworm/openvino-2023.2.0.dev20230922-raspbian-bookworm-arm64-a76-0.1.0-20240409.deb) | |
 | openvino-2023.2.0.dev20230922 | Bookworm, Jammy | aarch64 | Cortex-A72 | [URL](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/openvino/debian/bookworm/openvino-2023.2.0.dev20230922-raspbian-bookworm-arm64-0.1.0-20231108.deb) | ✅ |
 | 2023.1.0 | Bookworm, Jammy | aarch64 | Cortex-A72 | | |
 
