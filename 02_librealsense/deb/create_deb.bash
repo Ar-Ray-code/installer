@@ -32,13 +32,14 @@ if [ ${ARCH} == "arm64" ]; then
     docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 fi
 
-rm -rf ${DEB_ROOT}/usr/local/include/librealsense2 ${DEB_ROOT}/usr/local/lib/ ${DEB_ROOT}/DEBIAN/
-mkdir -p ${DEB_ROOT}/usr/local/include/librealsense2 ${DEB_ROOT}/usr/local/lib/ ${DEB_ROOT}/DEBIAN/
+sudo rm -rf ${DEB_ROOT}/usr/local/include/librealsense2 ${DEB_ROOT}/usr/local/lib/ ${DEB_ROOT}/DEBIAN/
+mkdir -p ${DEB_ROOT}/usr/local/include/librealsense2 ${DEB_ROOT}/usr/local/lib/ ${DEB_ROOT}/usr/local/bin/ ${DEB_ROOT}/DEBIAN/
 
 docker build -t deb_build -f ${SCRIPT_DIR}/dockerfile.${ARCH} ${SCRIPT_DIR}
 docker run -it --rm -v ${MOUNT_TARGET}:/build \
     -v ${DEB_ROOT}/usr/local/include/librealsense2:/usr/local/include/librealsense2 \
     -v ${DEB_ROOT}/usr/local/lib/:/usr/local/lib/ \
+    -v ${DEB_ROOT}/usr/local/bin/:/usr/local/bin/ \
     deb_build /bin/bash -c "/build/build.bash ${VERSION} ${APP}"
 if [ $? -ne 0 ]; then
     echo "Build failed!"
