@@ -1,13 +1,24 @@
 #!/bin/bash
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
-COPY_TARGET_BIN=FT_SCServo_Debug_Qt
+COPY_TARGET_BIN=LIBREALSENSE2
 # amd64 or arm64
 ARCH=${1:-arm64}
 MOUNT_TARGET=./build
 DEB_ROOT=./deb_root
-VERSION=${2:-v2.54.1}
+VERSION=${2:-v2.55.1}
 DPKG_VERSION=${VERSION#v}
 DEB_NAME=librealsense2-dev_${DPKG_VERSION}_${ARCH}
+
+echo "====== Start create deb package ======"
+echo "ARCH: $ARCH"
+echo "VERSION: $VERSION"
+echo "DPKG_VERSION: $DPKG_VERSION"
+echo "DEB_NAME: $DEB_NAME"
+echo "DEB_ROOT: $DEB_ROOT"
+echo "MOUNT_TARGET: $MOUNT_TARGET"
+echo "COPY_TARGET_BIN: $COPY_TARGET_BIN"
+echo "======================================="
+
 
 if [ ${ARCH} == "arm64" ]; then
     docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
