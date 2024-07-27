@@ -6,7 +6,7 @@ pyrealsense is not supported
 
 ## Bookworm
 
-Recommend: (2.54.2)
+Recommend: (2.55.1)
 
 | version | backend | app | URL |
 | --- | --- | --- | --- |
@@ -15,6 +15,7 @@ Recommend: (2.54.2)
 | 2.54.2 | RSUSB | ❌ | [2-54-2](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-bookworm-2-54-2-arm64.deb)
 | 2.54.2 | RSUSB | ✅ | [2-54-２](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-rsusb-app-bookworm-2-54-2-arm64.deb)
 | 2.54.2 | v4l2 | ✅ | [2-54-２](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-v4l2-backend-app-bookworm-2-54-2-arm64.deb)
+| 2.55.1 | v4l2 | ✅ | [2.55.1](https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/librealsense/debian/bookworm/librealsense-v4l2-backend-app-bookworm-2.55.1-arm64.deb.deb) |
 
 
 ## Bullseye
