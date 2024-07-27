@@ -6,8 +6,15 @@ ARCH=${1:-arm64}
 MOUNT_TARGET=./build
 DEB_ROOT=./deb_root
 VERSION=${2:-v2.55.1}
+DISTRO=${3:-bookworm}
+APP=${4:-true}
 DPKG_VERSION=${VERSION#v}
-DEB_NAME=librealsense2-dev_${DPKG_VERSION}_${ARCH}
+
+if [ ${APP} == "true" ]; then
+    DEB_NAME=librealsense-v4l2-backend-app-${DISTRO}-${DPKG_VERSION}-${ARCH}.deb
+else
+    DEB_NAME=librealsense-v4l2-backend-${DISTRO}-${DPKG_VERSION}-${ARCH}.deb
+fi
 
 echo "====== Start create deb package ======"
 echo "ARCH: $ARCH"
@@ -17,6 +24,7 @@ echo "DEB_NAME: $DEB_NAME"
 echo "DEB_ROOT: $DEB_ROOT"
 echo "MOUNT_TARGET: $MOUNT_TARGET"
 echo "COPY_TARGET_BIN: $COPY_TARGET_BIN"
+echo "APP: $APP"
 echo "======================================="
 
 
@@ -31,7 +39,7 @@ docker build -t deb_build -f ${SCRIPT_DIR}/dockerfile.${ARCH} ${SCRIPT_DIR}
 docker run -it --rm -v ${MOUNT_TARGET}:/build \
     -v ${DEB_ROOT}/usr/local/include/librealsense2:/usr/local/include/librealsense2 \
     -v ${DEB_ROOT}/usr/local/lib/:/usr/local/lib/ \
-    deb_build /bin/bash -c "/build/build.bash ${VERSION}"
+    deb_build /bin/bash -c "/build/build.bash ${VERSION} ${APP}"
 if [ $? -ne 0 ]; then
     echo "Build failed!"
     exit 1
